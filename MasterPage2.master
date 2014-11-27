@@ -1,0 +1,95 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head id="Head1" runat="server">
+    <title>login page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link href="../Home/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+    <!-- ImageReady Slices (login page.psd) -->
+    <form id="form1" runat="server">
+        <table width="1000" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td colspan="6">
+                    <img src="Loginimages/login-page_01.jpg" width="1600" height="162" alt="" 
+                        style="background-image: url(Loginimages/login-page_01.gif)"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <img src="Loginimages/login-page_02.gif" alt="" 
+                        style="width: 365px; height: 640px;">&nbsp;
+                    <asp:Panel ID="Panel2" runat="server" Width="277px" Style="z-index: 101;
+                        left: 43px; position: absolute; top: 445px; height: 209px;">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </asp:Panel>
+                </td>
+                <td>
+                    <img src="Loginimages/login-page_03.gif" alt="" style="z-index: 100; left: 370px;
+                        position: absolute; top: 162px; height: 74px; width: 163px;">
+                </td>
+                <td>
+                    <a href="LoginPage.aspx">
+                    &nbsp;<img src="Loginimages/login-page_04.gif" alt="" width="134" border="0"
+                            
+                        style="z-index: 101; left: 1036px; position: absolute; top: 162px; height: 71px;">
+                    </a>
+                </td>
+                <td>
+                    <a href="LoginPage.aspx">
+                        <img src="Loginimages/login-page_05.gif" alt="" width="120" border="0"
+                            
+                        
+                        style="z-index: 103; left: 1174px; position: absolute; top: 162px; right: 308px; height: 70px;">
+                    </a>
+                </td>
+                <td>
+                    <a href="../New Aspriant/NewAspriant.aspx">
+                        <img src="Loginimages/login-page_06.gif" alt="" width="150" border="0"
+                            
+                        style="z-index: 102; left: 1447px; position: absolute; top: 163px; height: 68px;">
+                    </a>
+                    <asp:Panel ID="Panel1" runat="server" Style="z-index: 100; left: 393px;
+                        position: absolute; top: 342px; width: 392px; height: 370px;">
+                        <marquee direction="up" scrolldelay="100" style="height: 277px">
+                        <p style="font-family:Arial; font-size:8pt; color:Navy; font-weight:bold"> 
+                        Datapoint Info solutions USA a leading global software solution company has its full-fledged offshore development and corporate training divisions in Hyderabad
+                        </p>
+                        <p style="font-family:Arial; font-size:8pt; color:Navy; font-weight:bold">
+                        Datapoint understand the need for qualified IT professionals has been spiraling over the last decade. For over a decade now India has been the obvious destination for enterprise seeking topnotch services and solutions. 
+                        </p>
+                        <p style="font-family:Arial; font-size:8pt; color:Navy; font-weight:bold">
+                        Datapoint has a broad spectrum of Fortune 500 clients hailing from medicine to communication, banking to manufacturing, services to R&D. to ensure that recruits skills and technical expertise remain relevant of all times, they are put through rigorous on the job, hands-on training in up-to-the-minute technologies ERP-SAP & Oracle, ABAP, Data warehousing, .NET, J2EE and all advanced technologies.  
+                        </p>
+                        <p style="font-family:Arial; font-size:8pt; color:Navy; font-weight:bold">
+                        Datapoint professionals possess the best credentials in their individual fields of expertise and are continuously encouraged to upgrade their technical and motivational skills through in-house training programs. Coupled with the fact that our infrastructure is more state-of-the-art than most. Our innovative technologies are second to none, and our employee-friendly policies are designed exclusively to guarantee work satisfaction. We can confidently boast of attracting the finest talent in the industry. A high-powered activity graph, blended with top-of-the-line projects ensures that their excitement and commitment remain undeterred. 
+                        </p>
+                        </marquee>
+                    </asp:Panel>
+                </td>
+                <td>
+                    <a href="LoginPage.aspx">
+                        <img src="Loginimages/login-page_07.gif" alt="" width="144" border="0"
+                            
+                        style="z-index: 104; left: 1298px; position: absolute; top: 162px; height: 69px;">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" style="height: 207px">
+                    <img src="Loginimages/login-page_08.gif" alt="" style="left: 368px; position: absolute;
+                        top: 235px; height: 566px; width: 1228px;">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" style="height: 26px">
+                    <img src="Loginimages/login-page_09.gif" width="1600" height="26" alt=""></td>
+            </tr>
+        </table>
+    </form>
+    <!-- End ImageReady Slices -->
+</body>
+</html>

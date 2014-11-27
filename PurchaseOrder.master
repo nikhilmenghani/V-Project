@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="PurchaseOrder.master.cs" Inherits="PurchaseOrder" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 28%;
+        }
+        .style3
+        {
+            height: 272px;
+        }
+        .style4
+        {
+            height: 272px;
+            width: 636px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table>
+        <tr>
+            <td colspan="2">
+                <asp:Image ID="Image1" runat="server" Height="299px" 
+                    ImageUrl="~/images/industry_banner.jpg" Width="1500px" />
+            </td>
+        </tr>
+        <tr>
+            <td class="style4">
+                <table class="style1">
+                    <tr>
+                        <td>
+                            <asp:ImageButton ID="ImageButton1" runat="server" Height="40px" 
+                                ImageUrl="~/images/images (1).jpg" Width="200px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:ImageButton ID="ImageButton2" runat="server" Height="40px" 
+                                ImageUrl="~/images/images (1) - Copy.jpg" Width="200px" />
+                        </td>
+                    </tr>
+                    <tr>
+                    <td>
+                                                <asp:ImageButton ID="ImageButton3" runat="server" Height="40px" 
+                                ImageUrl="~/images/images (1) - Copy.jpg" Width="200px" PostBackUrl="~/Jobcard_list.aspx" />
+                        
+                    </td>
+                    </tr>
+                </table>
+            </td>
+            <td class="style3">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+    <div>
+    </div>
+    </form>
+</body>
+</html>
